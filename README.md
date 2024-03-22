@@ -1,4 +1,4 @@
-小白从零开始学rust编写cloudflare woker教程！
+小白从零开始学rust编写cloudflare woker教程！Windows中操作。
 
 ## 一、基础
 
@@ -18,13 +18,13 @@ npx wrangler generate my-project https://github.com/cloudflare/workers-sdk/templ
 
 <img src="images\1.png" />
 
-成功创建项目first-cloudflare-worker-rust，目录情况如下：
+成功创建项目，first-cloudflare-worker-rust目录情况如下：
 
 <img src="images\2.png" />
 
 #### 2、修改src/lib.rs的代码
 
-由于使用worker-rust模板创建，在没有修改情况下，`src/lib.rs`中的req、env、ctx没有使用到，需要在前面添加“_”，或将括号里面的参数都删除。
+由于使用worker-rust模板创建，在没有修改情况下，直接运行会报错的。因为`src/lib.rs`中的req、env、ctx没有使用到，需要在前面添加“_”，或将括号里面的参数都删除。
 
 ```
 use worker::*;
