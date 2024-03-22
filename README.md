@@ -73,7 +73,7 @@ npm run deploy
 
 <img src="images\7.png" />
 
-![](images\8.png)
+<img src="images\8.png" />
 
 ## 二、进阶
 
@@ -142,7 +142,7 @@ wrangler dev --env dev
 npm run dev
 ```
 
-![](C:\Users\JuerSon\Desktop\新建文件夹 (2)\images\a2.png)
+<img src="images\a2.png" />
 
 #### 4、确定代码没有问题，就发布到cloudflare worker服务器中，执行命令：
 
@@ -150,4 +150,4 @@ npm run dev
 wrangler deploy
 ```
 
-![](C:\Users\JuerSon\Desktop\新建文件夹 (2)\images\a3.png)
+<img src="images\a3.png" />
