@@ -16,7 +16,7 @@ npx wrangler generate my-project https://github.com/cloudflare/workers-sdk/templ
 
 - 创建成功，怎么样的？
 
-![](images\1.png)
+<img src="images\1.png" />
 
 成功创建项目first-cloudflare-worker-rust，目录情况如下：
 
