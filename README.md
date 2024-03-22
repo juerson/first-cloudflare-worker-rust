@@ -2,7 +2,7 @@
 
 ## 一、基础
 
-#### 1、使用worker-rust模板创建rust的cloudflare worker：
+#### 1、使用worker-rust模板，创建rust的cloudflare worker：
 
 ```
 npx wrangler generate my-project https://github.com/cloudflare/workers-sdk/templates/experimental/worker-rust
@@ -12,7 +12,7 @@ npx wrangler generate my-project https://github.com/cloudflare/workers-sdk/templ
 
 注意：
 
-创建失败可以在于目录`C:\Users\{用户名}\AppData\Local\Temp\ `，将文件夹`wrangler-generate-repo-`开头的文件夹（包含里面的文件）删除，就能解决。通常创建失败是，之前您使用这命令创建过一次了，如果再次创建，只改项目名称，会创建失败的。
+创建失败，可能出自于目录`C:\Users\{用户名}\AppData\Local\Temp\ `，将该目录下的`wrangler-generate-repo-`开头的文件夹（包含里面的文件）删除，就能解决。通常创建失败是，之前您使用这命令创建过一次了，如果再次创建，只改项目名称，会创建失败的。
 
 - 创建成功，怎么样的？
 
